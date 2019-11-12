@@ -1,2 +1,2 @@
-# about.me
-Discover more about Jonathan &amp; his career adventure!
+# Jonathan Johnson: about.me
+Discover more about Jonathan and his web development adventure!
