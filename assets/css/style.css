@@ -1,0 +1,13 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bio {
+    font-size: 1vw;
+    font-weight: bolder;
+}
