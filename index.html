@@ -14,77 +14,241 @@
 </head>
 
 <body>
+    <!-- navbar action -->
+    <nav class="navbar navbar-expand-lg navbar-light">
 
-    <div class="navbar container-fluid">
-        <div class="row">
-            <div class="col">
-                <header>Lil' bout Me : Jonathan Johnson </header>
-            </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right" <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#work">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
+
     <hr>
+
     <div class="container-fluid">
         <div id="aboutMe" class="row align-items-center">
             <div class="col-6">
-                <img class="profile img-fluid rounded float-left" src="assets/images/beach.jpg" alt="" width="75%">
+                <!-- profile image -->
+                <img class="profile img-fluid rounded" src="assets/images/photos/beach.jpg" alt="" width="75%">
             </div>
             <div class="col-6">
+                <hr>
+                <!-- about me biography -->
+                <h2>Jonathan Johnson</h2>
                 <p class="bio">
-                    I am Jonathan Johnson, a front end web developer. I have a wife, a high school diploma and a
-                    Bachelor's Degree in Biology from
-                    Georgia Southern University.
+                    I am <b>full stack web developer</b>. I have a lovely wife, a high school
+                    diploma, a Bachelor's Degree in Biology from Georgia Southern University, and Full Stack Web
+                    Development Certificate from Georgia Institute of Technology.
                 </p>
                 <p class="bio">
                     I like long walks on the beach, hopelessly supporting Atlanta sports teams, eating chicken tenders,
                     and drinking black coffee.
                 </p>
-                <p class="bio">I am currently a coding bootcamp student at Georgia Tech!</p>
                 <hr>
-                <p class="text-center">Some Projects:</p>
-                <div class="row">
-                    <div class="col-4 align-self-start">
-                        <a href="https://github.com/gistewart/FoodMoodProject" target="_blank">
-                            <img src="https://images.unsplash.com/photo-1514517521153-1be72277b32f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-                                alt="#" class="img-fluid rounded mx-auto linkImg" width="50%">
-                            <figcaption class="figure-caption "> Food Mood</figcaption>
-                        </a>
-                    </div>
-                    <div class="col-4 align-self-start">
-                        <a href="https://github.com/jraf7/Crystal-Collector" target="_blank">
-                            <img src="https://images.unsplash.com/photo-1560427450-00fa9481f01e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60"
-                                alt="#" class="img-fluid rounded mx-auto linkImg" width="50%">
-                            <figcaption class="figure-caption"> Crystal Collector</figcaption>
-                        </a>
-                    </div>
-                    <div class="col-4 align-self-start">
-                        <a href="https://jraf7.github.io/Fantasy-Golf-Pool/" target="_blank">
-                            <img src="https://images.unsplash.com/flagged/photo-1558759103-d4d02c7ee13f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="img-fluid rounded mx-auto linkImg" width="50%">
-                            <figcaption class="figure-caption">Fantasy Golf</figcaption>
-                        </a>
-                    </div>
+            </div>
+        </div>
+    </div>
 
+    <hr>
+
+    <div class="container-fluid">
+        <h2 class="text-center">Technical Skills:</h2>
+        <div class="row justify-content-around">
+            <img height="75px" src="./assets/images/logos/git.png" alt="git logo">
+            <img height="75px" src="./assets/images/logos/html.png" alt="html logo">
+            <img height="75px" src="./assets/images/logos/css.png" alt="css logo">
+            <img height="75px" src="./assets/images/logos/js.png" alt="js logo">
+            <img height="75px" src="./assets/images/logos/jquery.png" alt="jquery logo">
+            <img height="75px" src="./assets/images/logos/bootstrap.png" alt="bs logo">
+            <img height="75px" src="./assets/images/logos/node.png" alt="nodejs logo">
+            <img height="75px" src="./assets/images/logos/mysql.png" alt="mysql logo">
+            <img height="40px" src="./assets/images/logos/mongodb.png" alt="mongodb logo">
+            <img height="75px" src="./assets/images/logos/react.png" alt="react logo">
+            <img height="75px" src="./assets/images/logos/heroku.png" alt="heroku logo">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <!-- project section -->
+        <h2 class="text-center">Projects:</h2>
+        <div class="" id="projects">
+            <div class="row align-self-start">
+                <div class="col">
+                    <a href="https://jraf7.github.io/FoodMoodProject/" target="_blank"><u>
+                            <h5>Food Mood</h5>
+                        </u></a>
+                    <p>Explore appealing content about your favorite foods.</p>
+                    <p>Responsible as Lead Developer and front end.</p>
+                    <p>Tech Used: HTML, CSS, Javascript, JQuery, AJAX, API requests</p>
+                    <p>Github: <a href="https://github.com/jraf7/FoodMoodProject"
+                            target="_blank">https://github.com/jraf7/FoodMoodProject</a></p>
+                    <p>Deployment: <a href="https://jraf7.github.io/FoodMoodProject/"
+                            target="_blank">https://jraf7.github.io/FoodMoodProject/</a></p>
+                </div>
+                <div class="col">
+                    <a href="https://jraf7.github.io/FoodMoodProject/" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1576859258048-a5c7bd8f8f6d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixlib=rb-1.2.1&q=80&w=800"
+                            alt="#" class="img-fluid rounded mx-auto linkImg" width="50%">
+                        <figcaption class="figure-caption ">Food Mood</figcaption>
+                    </a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row align-self-start">
+                <div class="col">
+                    <a href="https://golfygolf.herokuapp.com/" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1578675730869-aeb646221a0a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixlib=rb-1.2.1&q=80&w=800"
+                            alt="" class="img-fluid rounded mx-auto linkImg" width="50%">
+                        <figcaption class="figure-caption">Fantasy Golf</figcaption>
+                    </a></div>
+                <div class="col">
+                    <u>
+                        <a href="https://golfygolf.herokuapp.com/" target="_blank">
+                            <h5>Fantasy Golf</h5>
+                        </a>
+                    </u>
+                    <p>Full Stack node.js app for running a fantasy golf pool.</p>
+                    <p>Responsible as lead developer & for API routing.</p>
+                    <p>Tech Used: HTML, CSS, JS, JQuery, MySQL, Express,</p>
+                    <p>Github: <a href="https://github.com/jraf7/Fantasy-Golf-Pool"
+                            target="_blank">https://github.com/jraf7/Fantasy-Golf-Pool</a></p>
+                    <p>Deploymetn: <a href="https://golfygolf.herokuapp.com/"
+                            target="_blank">https://golfygolf.herokuapp.com/</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row align-self-start">
+                <div class="col">
+                    <u>
+                        <a href="https://gatahabit.herokuapp.com/" target="_blank">
+                            <h5>Habit Tracker</h5>
+                        </a>
+                    </u>
+                    <p>A simple tracker app for daily habits and small goals</p>
+                    <p>Responsible for back end development.</p>
+                    <p>Tech Used: React JS, Javascript, Express, MongoDB, AJAX</p>
+                    <p>Github: <a href="https://github.com/jraf7/GATA" target="_blank">https://github.com/jraf7/GATA</a>
+                    </p>
+                    <p>Deployment: <a href="https://gatahabit.herokuapp.com/"
+                            target="_blank">https://gatahabit.herokuapp.com/</a></p>
+                </div>
+                <div class="col"><a href="https://gatahabit.herokuapp.com/" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1579033035943-710ff4e050c9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixlib=rb-1.2.1&q=80&w=800"
+                            alt="" class="img-fluid rounded mx-auto linkImg" width="50%">
+                        <figcaption class="figure-caption">Habit Tracker</figcaption>
+                    </a></div>
+            </div>
+            <hr>
+            <div class="row align-self-start">
+                <div class="col"><a href="https://littyclick.herokuapp.com/">
+                        <img src="https://images.unsplash.com/photo-1576919918680-b521456c2c0d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixlib=rb-1.2.1&q=80&w=800"
+                            alt="" class="img-fluid rounded mx-auto linkImg" width="50%">
+                        <figcaption class="figure-caption">Clicky Game</figcaption>
+                    </a></div>
+                <div class="col">
+                    <u>
+                        <a href="https://littyclick.herokuapp.com/">
+                            <h5>Clicky Game</h5>
+                        </a>
+                    </u>
+                    <p>A simple React JS memory game.</p>
+                    <p>Tech Used: React JS, Javascript, JQuery</p>
+                    <p>Github: <a href="https://github.com/jraf7/clicker">https://github.com/jraf7/clicker</a></p>
+                    <p>Deployment: <a href="https://littyclick.herokuapp.com/">https://littyclick.herokuapp.com/</a></p>
                 </div>
             </div>
         </div>
     </div>
+
     <hr>
 
-    <div class="container-fluid">
-        <div class="col bio text-center">
-            <ul class="list-unstyled">Contact Info:
-                <li>Phone: 404-431-1688</li>
-                <li>Email: jraf7@icloud.com</li>
-                <li>Github: <a href="https://github.com/jraf7/" target="_blank">
-                        https://github.com/jraf7/
-                    </a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/jonathan-johnson-041bb8125/" target="_blank">Jonathan
-                        Johnson
-                    </a></li>
-                <li>Resume: <a href="assets/resume/Resume.pdf" target="_blank">Jonathan Johnson</a></li>
-            </ul>
+    <div class="container-fluid" id="education">
+        <h2 class="text-center">Education:</h2>
+        <div class="row justify-content-around">
+            <div class="col">
+                <strong>
+                    <p>Bachelor of Science - Biology</p>
+                </strong>
+                <p>Georgia Southern University | May 2018</p>
+                <img src="./assets/images/logos/eagle.jpg" height="75" alt="gs logo">
+            </div>
+            <div class="col">
+                <strong>
+                    <p>Full Stack Web Development Certificate</p>
+                </strong>
+                <p>Georgia Institute of Technology | Jan 2020 </p>
+                <img src="./assets/images/logos/gt.png" height="75" alt="gt logo">
+            </div>
+        </div>
+
+
+    </div>
+
+    <hr>
+
+    <div class="container-fluid" id="work">
+        <h2 class="text-center">Work Experience:</h2>
+        <div class="row">
+            <div class="col">
+                <strong>
+                    Healthcare Specialist / Combat Medic (E5/SGT)
+                </strong>
+                <p>Georgia Army National Guard | Griffin, Ga & Afghanistan | 2013 - Present</p>
+            </div>
         </div>
     </div>
+
+    <hr>
+
+
+    <!-- contact me section -->
+    <div class="container-fluid text-center" id="contact">
+        <ul class="list-unstyled"> Contact Info:
+            <li>Phone: 404-431-1688</li>
+            <li>Email: jraf7@icloud.com</li>
+            <li>Github:
+                <a href="https://github.com/jraf7/" target="_blank">
+                    https://github.com/jraf7/
+                </a>
+            </li>
+            <li>LinkedIn:
+                <a href="https://www.linkedin.com/in/jonathanraf/" target="_blank">Jonathan
+                    Johnson
+                </a>
+            </li>
+            <li>Resume:
+                <a href="assets/resume/Resume.pdf" target="_blank">
+                    Jonathan Johnson
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
 
     < <!-- bootstrap scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
